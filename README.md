@@ -1,69 +1,90 @@
-# WiseChoice
+# 🛍️ WiseChoice
 Your Intelligent Shopping Companion
 
-## Overview
-WiseChoice is an intelligent shopping assistant designed to help e-commerce shoppers make informed purchasing decisions by addressing two major challenges:
+## 📋 Overview
+WiseChoice is an intelligent shopping assistant that helps e-commerce shoppers make informed purchasing decisions through advanced AI-powered analysis. The platform combines natural language processing, machine learning, and web scraping to provide comprehensive product insights.
 
-1. **Product Quality Assessment**: Analyzing and summarizing product reviews while filtering out fake reviews
-2. **Price Fairness Evaluation**: Determining if a product's price is reasonable based on market analysis
+## ✨ Key Features
 
-## Key Features
-
-### 1. Review Analysis
-- **Fake Review Detection**: Identifies and filters out computer-generated and paid reviews
-- **Sentiment Analysis**: Evaluates the overall sentiment of genuine reviews
-- **Review Summarization**: Provides concise pros and cons from verified reviews
+### 1. Review Analysis System
+- **Review Extraction**: Automated scraping of product reviews from e-commerce platforms
+- **Fake Review Detection**: Machine learning-based identification of suspicious reviews
+- **Sentiment Analysis**: Deep learning-powered sentiment evaluation of genuine reviews
+- **Review Summarization**: AI-generated concise summaries highlighting key pros and cons
 
 ### 2. Price Analysis
-- **Price Fairness Evaluation**: Analyzes if the current price is reasonable
-- **Market Comparison**: Compares prices across different platforms
+- **Market Price Comparison**: Cross-platform price analysis
+- **Price Fairness Evaluation**: Machine learning-based assessment of price reasonableness
 
 ### 3. Interactive Features
-- **AI Chatbot**: Interactive assistant to answer product-related queries
-- **Product Grading**: Assigns a grade (S, A, B, C, D) based on overall product quality and price fairness
+- **AI Chatbot**: Powered by Google's Generative AI for intelligent product queries
+- **Product Grading System**: Comprehensive grading (S, A, B, C, D) based on quality and price metrics
 
-## Technical Stack
+## 🛠️ Technical Architecture
 
-### Backend
-- Python 3.10+
-- Flask (Web Framework)
-- Selenium (Web Scraping)
-- Transformers (NLP)
-- NLTK (Natural Language Processing)
-- Scipy (Scientific Computing)
+### Backend (Python)
+- **Web Framework**: Flask with CORS support
+- **NLP & ML Stack**:
+  - Transformers (Hugging Face)
+  - PyTorch
+  - NLTK
+  - Scikit-learn
+- **Web Scraping**: Selenium with Chrome WebDriver
+- **Data Processing**: Pandas, SciPy
+- **Visualization**: Plotly, Matplotlib
+- **AI Integration**: Google Generative AI
 
-### Frontend
-- Next.js
-- React
-- Tailwind CSS
+### Frontend (Next.js)
+- **Framework**: Next.js 13+ with React
+- **Styling**: Tailwind CSS
+- **Component Library**: Shadcn UI
+- **State Management**: React Context API
 
-## Setup Instructions
+## 📁 Project Structure
+```
+WiseChoice/
+├── backend-server/
+│   ├── app.py              # Flask application
+│   ├── Extraction.py       # Review extraction module
+│   ├── Fake_Review_Detector.py
+│   ├── Sentiment_Analysis.py
+│   ├── summarizer.py
+│   └── chatbot.py
+├── frontend-UI/
+│   ├── src/               # React components
+│   ├── public/            # Static assets
+│   └── components.json    # UI component configuration
+├── requirements.txt       # Python dependencies
+└── setup.py              # Installation script
+```
+
+## 🚀 Setup Instructions
 
 ### Prerequisites
-- Python 3.10 or higher
-- Node.js and npm
-- Minimum 8GB RAM
-- Chrome browser (for web scraping)
+- Python 3.10+
+- Node.js 16+
+- Chrome browser
+- 8GB+ RAM recommended
 
-### Installation Steps
+### Installation
 
-1. **Clone the Repository**
+1. **Clone and Setup**
    ```bash
    git clone https://github.com/lokeshpanthangi/WiseChoice.git
    cd WiseChoice
    ```
 
-2. **Install Python Dependencies**
+2. **Backend Setup**
    ```bash
-   python setup.py
+   # Install Python dependencies
+   pip install -r requirements.txt
+   
+   # The project may already include the joblib file. If not, use the link below to download it.
+   # Download required ML model from : https://drive.google.com/file/d/1HISyKqoWQk0-Xcztx317f6uCWIYsd8lN/view?usp=sharing
+   # Place the model file in backend-server directory
    ```
 
-3. **Download Required Model**
-   - Download the joblib file from:
-     https://drive.google.com/file/d/1HISyKqoWQk0-Xcztx317f6uCWIYsd8lN/view?usp=sharing
-   - Place it in the `backend-server` directory
-
-4. **Install Frontend Dependencies**
+3. **Frontend Setup**
    ```bash
    cd frontend-UI
    npm install
@@ -83,23 +104,26 @@ WiseChoice is an intelligent shopping assistant designed to help e-commerce shop
    npm run dev
    ```
 
-3. **Access the Application**
-   - Open your browser and navigate to: http://localhost:3000
+3. **Access**
+   - Open browser and navigate to: http://localhost:3000
 
-## Usage
+## 📖 Usage Guide
 
-1. Enter a product URL from a supported e-commerce platform
-2. The system will:
-   - Extract and analyze reviews
-   - Filter out fake reviews
-   - Perform sentiment analysis
-   - Evaluate price fairness
-   - Generate a comprehensive product report
+1. **Product Analysis**
+   - Enter product URL from supported e-commerce platforms
+   - System automatically:
+     - Extracts and processes reviews
+     - Filters fake reviews
+     - Performs sentiment analysis
+     - Evaluates price fairness
+     - Generates comprehensive report
 
-3. Use the chatbot to ask specific questions about the product
+2. **Interactive Features**
+   - Use the AI chatbot for specific product queries
+   - View product grade and detailed analysis
+   - Access price comparison data
 
-## Support
+## Support & Contact
 
-For more information about the project, mail :
-lokeshpantangi@gmail.com
-
+For questions or issues:
+- Email: lokeshpantangi@gmail.com
