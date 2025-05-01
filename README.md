@@ -49,7 +49,7 @@ WiseChoice is an intelligent shopping assistant designed to help e-commerce shop
 
 1. **Clone the Repository**
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/lokeshpanthangi/WiseChoice.git
    cd WiseChoice
    ```
 
