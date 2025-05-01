@@ -60,7 +60,7 @@ WiseChoice is an intelligent shopping assistant designed to help e-commerce shop
 
 3. **Download Required Model**
    - Download the joblib file from:
-     https://drive.google.com/drive/u/1/folders/1z2MCfuIaRLS6kblz7E4uj6P-4IXmdHqv
+     https://drive.google.com/file/d/1HISyKqoWQk0-Xcztx317f6uCWIYsd8lN/view?usp=sharing
    - Place it in the `backend-server` directory
 
 4. **Install Frontend Dependencies**
