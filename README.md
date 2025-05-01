@@ -40,24 +40,6 @@ WiseChoice is an intelligent shopping assistant that helps e-commerce shoppers m
 - **Component Library**: Shadcn UI
 - **State Management**: React Context API
 
-## 📁 Project Structure
-```
-WiseChoice/
-├── backend-server/
-│   ├── app.py              # Flask application
-│   ├── Extraction.py       # Review extraction module
-│   ├── Fake_Review_Detector.py
-│   ├── Sentiment_Analysis.py
-│   ├── summarizer.py
-│   └── chatbot.py
-├── frontend-UI/
-│   ├── src/               # React components
-│   ├── public/            # Static assets
-│   └── components.json    # UI component configuration
-├── requirements.txt       # Python dependencies
-└── setup.py              # Installation script
-```
-
 ## 🚀 Setup Instructions
 
 ### Prerequisites
