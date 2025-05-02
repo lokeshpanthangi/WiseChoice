@@ -6,7 +6,7 @@ WiseChoice is an intelligent shopping assistant designed to help e-commerce shop
 
 1. **Product Quality Assessment**: Analyzing and summarizing product reviews while filtering out fake reviews
 2. **Price Fairness Evaluation**: Determining if a product's price is reasonable based on market analysis
-3. *My project will give you the a score according to the price and also according to the user reviews*
+3. *My project will give you a score according to the price and also according to the user reviews*
 4. *The grading system of my project compares the variations of the costprice of the product and compares it to the current costprice and gives a Grade*
 
 ## Key Features
