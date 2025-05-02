@@ -104,5 +104,8 @@ WiseChoice is an intelligent shopping assistant designed to help e-commerce shop
 
 For more information about the project, mail :
 lokeshpantangi@gmail.com
-**IF THE DOM STRUCTURE OF FLIPKART OR AMAZON MIGHT KEEP CHANGING  SO TAKE A LOOK**
+
+
+
+**THE DOM STRUCTURE OF FLIPKART OR AMAZON MIGHT KEEP CHANGING  SO TAKE A LOOK**
 
