@@ -1,3 +1,4 @@
+import os
 from dotenv import load_dotenv
 import re
 load_dotenv()
@@ -8,7 +9,7 @@ class GeminiTerminalApp:
     def __init__(self):
         self.model = genai.GenerativeModel("gemini-pro")
         self.chat = self.model.start_chat(history=[])
-        genai.configure(api_key="AIzaSyCYDGQXaq8b69eR4LJtj0Es7jJAqFGf0GI")
+        genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
     def remove_emoji(self,text):
   # Define the emoji pattern with raw strings for proper unicode support
       emoji_pattern = re.compile(r"""
